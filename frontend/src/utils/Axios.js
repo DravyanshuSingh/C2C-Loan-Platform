@@ -3,7 +3,8 @@ import axios from 'axios'
 const instance = axios.create({
     baseURL:
         // 'http://localhost:3005',
-        process.env.backendUrl
+        //  process.env.backendUrl,
+    https://c2c-backend.onrender.com/
 })
 
 instance.interceptors.request.use((req) => {
